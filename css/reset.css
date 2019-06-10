@@ -20,7 +20,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: 'Roboto',arial,sans-serif;
+	font-family: 'Roboto',arial,sans-serif;
 	vertical-align: baseline;
 	text-decoration: none;
 }

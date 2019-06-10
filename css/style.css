@@ -1,5 +1,9 @@
+body {
+  font-size: 13px;
+}
+
 .header {
-  padding: 20px 30px;
+  padding: 20px 30px 25px;
   vertical-align: middle;
   width: 100%;
 }
@@ -17,6 +21,7 @@
   border: 1px solid #dfe1e5;
   border-radius: 25px;
   display: inline-block;
+  font-size: 16px;
   padding: 10px 20px;
   width: 600px;
 }
@@ -35,6 +40,92 @@ input[name=Search] {
   width:500px;
 }
 
+input[name=Voice] {
+  position: relative;
+  left: 40px;
+}
+
+input[name=Submit] {
+  position: relative;
+  left: 50px;
+}
+
 path {
   fill: #4285f4;
+}
+
+.user {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  margin: 0 30px;
+  padding: 5px 0;
+}
+
+.options {
+  background: url('../imgs/i2_2ec824b0.png') no-repeat;
+  background-position-x: -132px;
+  background-position-y: -38px;
+  background-size: 528px 68px;
+  display:inline-block;
+  height: 30px;
+  margin-right: 15px;
+  opacity: 0.55;
+  width: 30px;
+}
+
+.options:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.avatar {
+  background: url('../imgs/big-wave-surfing.jpg') no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+}
+
+.nav {
+  border-bottom: 1px solid #ddd;
+  display: block;
+  width: 100%;
+}
+
+.nav ul {
+  position: relative;
+  left: 150px;
+}
+
+.search-options {
+  margin-left: 75px;
+}
+
+.nav ul,
+.nav ul li {
+  display: inline-block;
+}
+
+.nav ul li {
+  padding: 0 15px;
+}
+
+.nav ul li.active {
+  padding-bottom: 15px;
+  border-bottom: 3px solid #1A73E8;
+}
+
+.nav a {
+  color: #777;
+}
+
+.nav a:hover {
+  color: #333;
+}
+
+.nav ul li.active a {
+  color: #1A73E8;
+  font-weight: bold;
 }
