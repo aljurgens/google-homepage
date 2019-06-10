@@ -1,0 +1,40 @@
+.header {
+  padding: 20px 30px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.logo {
+  display: inline-block;
+  height: 30px;
+  margin-right: 25px;
+  position: relative;
+  top: 5px;
+  width: 92px;
+}
+
+.searchbar {
+  border: 1px solid #dfe1e5;
+  border-radius: 25px;
+  display: inline-block;
+  padding: 10px 20px;
+  width: 600px;
+}
+
+.searchbar:hover {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+input {
+  height: 24px;
+}
+
+input[name=Search] {
+  float: left;
+  line-height: 25px;
+  width:500px;
+}
+
+path {
+  fill: #4285f4;
+}
