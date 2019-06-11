@@ -119,6 +119,7 @@ path {
 
 .nav a {
   color: #777;
+  line-height: 30px;
 }
 
 .nav a:hover {
@@ -128,4 +129,50 @@ path {
 .nav ul li.active a {
   color: #1A73E8;
   font-weight: bold;
+}
+
+.content {
+  margin: 15px 170px;
+  width: 600px;
+}
+
+.stats {
+  color:#777;
+  padding-bottom: 5px;
+}
+
+.result {
+  color: #545454;
+  line-height: 20px;
+  padding: 15px 0;
+}
+
+.result a {
+  color: #006621;
+  display: block;
+  font-size: 14px;
+}
+
+.result a:hover {
+  text-decoration: none;
+}
+
+.result a h3 {
+  color: #1a0dab;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 125%;
+}
+
+.result a:hover h3 {
+  text-decoration: underline;
+}
+
+.date {
+  color: #777;
+}
+
+.down-arrow {
+  position: relative;
+  top: -2px;
 }
