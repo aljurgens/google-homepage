@@ -104,7 +104,9 @@ path {
 }
 
 .nav ul,
-.nav ul li {
+.nav ul li,
+.related ul,
+.related ul li {
   display: inline-block;
 }
 
@@ -136,7 +138,7 @@ path {
   width: 600px;
 }
 
-.stats {
+.small {
   color:#777;
   padding-bottom: 5px;
 }
@@ -175,4 +177,96 @@ path {
 .down-arrow {
   position: relative;
   top: -2px;
+}
+
+.related {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.related,
+.searches {
+  display: block;
+  padding: 20px;
+  margin: 10px 150px;
+  width: 600px;
+}
+
+.related ul li {
+  margin: 10px;
+  width: 75px;
+}
+
+.related .icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  height: 75px;
+  margin-bottom: 5px;
+  width: 75px;
+}
+
+.codecademy {
+  background-image: url('../imgs/related/codecademy.png');
+}
+
+.odin {
+  background-image: url('../imgs/related/odin.png');
+}
+
+.w3schools {
+  background-image: url('../imgs/related/w3.jpeg');
+}
+
+.freecode {
+  background-image: url('../imgs/related/freecode.jpeg');
+}
+
+.mobirise {
+  background-image: url('../imgs/related/mobirise.png');
+}
+
+.dreamweaver {
+  background-image: url('../imgs/related/dreamweaver.png');
+}
+
+.googleweb {
+  background-image: url('../imgs/related/googleweb.png');
+}
+
+.webnode {
+  background-image: url('../imgs/related/webnode.png');
+}
+
+.spacer {
+  margin-bottom: 30px;
+}
+
+.related h3,
+.searches h3 {
+  color: #222;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 133%;
+}
+
+.feedback {
+  display: block;
+  font-size: 12px;
+  font-style: italic;
+  margin-left: 725px;
+}
+
+.feedback:hover,
+.searches a:hover {
+  text-decoration: underline;
+}
+
+.searches ul {
+  margin: 25px 0;
+}
+
+.searches ul li {
+  font-size: 14px;
+  margin: 10px 0;
 }
